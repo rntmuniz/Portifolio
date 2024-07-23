@@ -94,11 +94,11 @@ img{
     content: 'Perfil';   
 } 
 
-.button-Formacao:hover:after{
+.button-Formação:hover:after{
     content: 'Formação';
 } 
 
-.button-Experiencia:hover:after{
+.button-Experiência:hover:after{
     content: 'Experiência';
 } 
 
