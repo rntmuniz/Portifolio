@@ -18,7 +18,7 @@
 }
 
 .main {
-    padding-top: 100px;
+    padding-top: 30px;
     top: 0;
     left: 0;
     align-items: center;
@@ -59,7 +59,7 @@ img{
 
 .main .button-list button{
     border-radius: 15px;
-    margin: 5px;
+    margin: 8px;
     color: #f7fa59;
     background-color: var(--text-color); 
     border-color: #f7fa59;
@@ -70,6 +70,8 @@ img{
     5px 5px 5px rgba(0, 0, 0, 0.2);
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
     outline: 0;
+    display: flex;
+    align-items: center;
 }
 
 .button-list button:hover{

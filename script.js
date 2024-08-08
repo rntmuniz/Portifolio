@@ -25,8 +25,8 @@ buttonsList.forEach((item) => {
 document.getElementById('button-list').innerHTML = content;
 
 function abrirModal(title, body){
-    let link = `<a href="https://rntmuniz.github.io/CalculadoraHtml/">Calculadora HTML</a><br> 
-    <a href="https://rntmuniz.github.io/CalculadoraHtml/">Calculadora Plus HTML</a>`;
+    let link = `<a href="https://rntmuniz.github.io/CalculadoraHtml/" target="_blank">Calculadora HTML</a><br> 
+    <a href="https://rntmuniz.github.io/CalculadoraHtml/" target="_blank">Calculadora Plus HTML</a>`;
 
     // const texto = document.querySelector('.texto');
     const modal = document.getElementById('janela-modal');
